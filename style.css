@@ -49,18 +49,26 @@ table {
 
 /* ^^^^ remove browser default styles ^^^^ */
 
-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.display {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 3fr 1fr;
 }
-
 .sidebar {
-    grid-column: 1;
-    width: 100vh;
-    height: 100vh;
+	grid-column: 1;
+	grid-row: 2;
+	overflow: hidden;
+	text-align: center;
 }
 
-img {
-    max-width: 100%;
-    height: 100%;
+.sidebar img {
+	max-height: 75vh;
+	object-fit: cover;
+	object-position: center;
+}
+
+.form {
+	grid-column: 2 / 4;
+	grid-row: 2;
+
 }
