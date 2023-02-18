@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -9,14 +9,47 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <container>
-            <div class="display">
-                <div class="sidebar column">
-                    <img src="images/sidebar-background.jpg" alt="Halie West photo of leaves">
-                </div>
-                <div class="form column">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nihil itaque ex temporibus dolorum ipsa delectus, beatae vero esse ab dignissimos placeat ullam impedit voluptatibus, cumque fuga accusantium veritatis id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eaque ipsa doloremque minima? Veniam, dolor nihil. Sit tempore temporibus repellat, neque quia, odio quos perspiciatis, exercitationem magni earum assumenda. Laudantium!</div>
-            </div>
-        </container>
+        <div class="container">
+            <div class="framework sidebarFrame"></div>
+            <div class="framework formFrame"></div>
+        </div>
         <script src="script.js"></script>
     </body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Wireframe</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        height: 100%;
+        width: 100%;
+      }
+      .item {
+        background-color: #ccc;
+        border: 1px solid #000;
+      }
+      .form {
+        grid-column: 2 / 4;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item sidebar">1</div>
+      <div class="item form">2</div>
+    </div>
+  </body>
 </html>

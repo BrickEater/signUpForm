@@ -49,26 +49,20 @@ table {
 
 /* ^^^^ remove browser default styles ^^^^ */
 
-.display {
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+  }
+  .container {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 3fr 1fr;
-}
-.sidebar {
-	grid-column: 1;
-	grid-row: 2;
-	overflow: hidden;
-	text-align: center;
-}
-
-.sidebar img {
-	max-height: 75vh;
-	object-fit: cover;
-	object-position: center;
-}
-
-.form {
-	grid-column: 2 / 4;
-	grid-row: 2;
-
-}
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	height: 100%;
+	width: 100%;
+  }
+  .framework {
+	background-color: #ccc;
+	border: 1px solid #000;
+  }
