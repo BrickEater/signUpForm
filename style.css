@@ -49,20 +49,25 @@ table {
 
 /* ^^^^ remove browser default styles ^^^^ */
 
-body {
+html, body {
 	height: 100%;
 	width: 100%;
-	margin: 0;
-	padding: 0;
-  }
-  .container {
+}
+.container {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(3, 1fr);
+	grid-template-rows: auto;
 	height: 100%;
 	width: 100%;
-  }
-  .framework {
+}
+.bones {
 	background-color: #ccc;
 	border: 1px solid #000;
-  }
+}
+
+.form {
+	display:grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-column: 2 / 4;
+}
+

@@ -1,5 +1,12 @@
 # signUpForm
 
+19/02/2023:
+Pre Coding: Continuing to add to the framework. I am going to add the three sections in the form section which will be the end of the structure. From there, I can add the text and buttons.
+---
+Post Coding: That was really simple and I'm happy with how it came out. I do think that I need to restrict some sizing so that when the page grows or shrinks the website has a general look to it. I won't be manipulating the site to consider phones.
+---
+To Do: Create a min and max size for the whole container so that the page can adjust a bit but not too much. The sidebar should adjust itself first until it is completely invisible and then the form should shrink a bit but never to the point that it stacks the input fields. Maybe I will adjust it for phones if it's a reasonable process.
+
 18/02/2023:
 Pre Coding: So I mentioned making the structure in my last To-Do, I thought that I should break it down into the "bones, muscle, skin, and brain". The bones is the structure, the muscle is the interactionable objects, the skin is the colouring and styles, and the brain is the functions. I feel like previously I have been working outside in where I work on one thing until completion and then hope it fits with the next thing I work on. I am trying to form a workflow that works for me.
 ---
