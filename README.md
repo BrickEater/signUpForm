@@ -1,5 +1,12 @@
 # signUpForm
 
+20/02/2023:
+Pre Coding: Make a div that holds everything and has a padding so the content is more centralized. I think it should be simple to make the spacing but adjusting how it flexes will be the challenge.
+---
+Post Coding: I think the bones are done, I just need to add some muscle to the framework.This was much more simple than I thought it would be. I am really happy with the results and don't think there is anything further that needs to be done for the bones.
+---
+Thoughts: I will need to add some buttons and the image to this tomorrow. I'm suspecting the image will give me issues again but I've done it once already so hopefully it's not to bad. The buttons should be easy. Oh, and input fields.
+
 19/02/2023:
 Pre Coding: Continuing to add to the framework. I am going to add the three sections in the form section which will be the end of the structure. From there, I can add the text and buttons.
 ---
