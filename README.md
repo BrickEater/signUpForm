@@ -1,5 +1,10 @@
 # signUpForm
 
+21/02/2023:
+Pre Coding: Add all the interactionable objects into the page, buttons, input fields, images, and text place holders.
+Post Coding:
+Thoughts:
+
 20/02/2023:
 Pre Coding: Make a div that holds everything and has a padding so the content is more centralized. I think it should be simple to make the spacing but adjusting how it flexes will be the challenge.
 ---
