@@ -1,5 +1,8 @@
 # signUpForm
 
+23/02/2023:
+Post Coding: I'm slowly plugging away at this page but this dev journal is annoying...
+
 21/02/2023:
 Pre Coding: Add all the interactionable objects into the page, buttons, input fields, images, and text place holders.
 Post Coding:
