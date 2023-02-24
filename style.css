@@ -108,3 +108,18 @@ html, body {
 .columnTwo {
 	grid-column: 2;
 }
+
+input {
+	width: 200px;
+	height: 25px;
+}
+
+label {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.firstName .lastName .email {
+	grid-row: 3;
+}

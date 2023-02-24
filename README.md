@@ -1,5 +1,10 @@
 # signUpForm
 
+24/02/2023:
+I'm going to fix how big the input fields are and label them.
+---
+I realized that I was making a class name just to set items into a grid but I can just select all the class names that I need and define the grid row or column. I'm not sure if that's smart or not but I'm changing everything to do it like that.
+
 23/02/2023:
 Post Coding: I'm slowly plugging away at this page but this dev journal is annoying...
 
