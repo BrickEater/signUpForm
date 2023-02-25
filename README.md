@@ -1,5 +1,8 @@
 # signUpForm
 
+25/02/2023:
+I have to assign columns and rows to the fields again today. I was adding a column and row class to each element and targeting that class to assign things but I can target the my specific class instead. I don't need additional classes just to assign a grid layout.
+
 24/02/2023:
 I'm going to fix how big the input fields are and label them.
 ---
