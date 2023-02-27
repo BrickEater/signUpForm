@@ -66,10 +66,6 @@ html, body {
 	min-width: 960px;
 	margin: auto;
 }
-.bones {
-	background-color: #ccc;
-	border: 1px solid #000;
-}
 
 .form {
 	display:grid;
@@ -104,8 +100,9 @@ html, body {
 	grid-column: 1;
 	grid-row: 2;
 	display: flex;
-	margin: 10px;
 	justify-content: center;
+    box-shadow: 0 5px 5px -5px #282a2d;
+	margin-bottom: 3px;
 }
 
 input {
@@ -137,5 +134,10 @@ label {
 }
 
 .banner {
-	font-size: 25px;
+	font-size: 20px;
+	font-weight:700;
+}
+
+.buttons, .banner {
+	background-color: rgb(235, 234, 234);
 }

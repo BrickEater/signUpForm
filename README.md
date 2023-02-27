@@ -1,5 +1,22 @@
 # signUpForm
 
+27/02/2023:
+I'm going to add colour to the form boxes and give a shadow to the field box.
+---
+Maybe I should create a structure for the colours and font styles separately so that I can address them all with a few classes in a single section instead of adding them whenever I think of them inside the CSS file.
+---
+Something like:
+<!-- Colors -->
+All colors will be addressed within this section
+<!-- Font -->
+All font will be addressed in this section
+<!-- Maybe Spacing -->
+All general spacing will be addressed here.
+---
+This way, I have a general sense of where to find the thing I'm looking for when applying style or wanting to change the style. This also makes me think that I should have some sort of glossary or something.
+---
+I colored a couple boxes but my margins are fucking up the spacing. I'll have to figure out how to address that. The shadow I added was a fuck around too but it's working at least.
+
 26/02/2023:
 Going to put the text in a wrapper too to work on the spacing.
 ---
