@@ -55,6 +55,7 @@ html, body {
 	align-items: center;
 	height: 100%;
 	width: 100%;
+	font-family: sans-serif;
 }
 .container {
 	display: grid;
@@ -101,19 +102,13 @@ html, body {
 	grid-row: 2;
 	display: flex;
 	justify-content: center;
-    box-shadow: 0 5px 5px -5px #282a2d;
-	margin-bottom: 3px;
+    box-shadow: 0 8px 8px -5px #b1b5bb;
+	margin-bottom: 8px;
 }
 
 input {
 	width: 200px;
 	height: 25px;
-}
-
-label {
-	margin: 0;
-	padding: 0;
-	border: 0;
 }
 
 .header, .inputWrapper0, .inputWrapper2, .inputWrapper4 {
@@ -130,14 +125,26 @@ label {
 
 .bannerWrapper {
 	display: flex;
-	margin: 28px;
+	align-items: flex-end;
+	justify-content: flex-start;
 }
 
 .banner {
 	font-size: 20px;
 	font-weight:700;
+	margin: 28px;
+
 }
 
-.buttons, .banner {
-	background-color: rgb(235, 234, 234);
+.buttons, .bannerWrapper {
+	background-color: rgb(250, 250, 250);
+}
+
+.header {
+	font-size: 25px;
+	font-weight: 700;
+}
+
+.labelField {
+	font-size: 10px;
 }

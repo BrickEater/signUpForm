@@ -1,5 +1,8 @@
 # signUpForm
 
+28/02/2023:
+Fix the div and wrapper background color so that it paints the whole div and not just the wrapper within it. I am assuming there is a margin that is not being painted so I will need to investigate further.
+
 27/02/2023:
 I'm going to add colour to the form boxes and give a shadow to the field box.
 ---
