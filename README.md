@@ -1,5 +1,8 @@
 # signUpForm
 
+01/03/2023:
+I don't want to fuck around with small things so I'm just going to change the button style to match with a forest green color and a shadow. Not much time today so that's probably it.
+
 28/02/2023:
 Fix the div and wrapper background color so that it paints the whole div and not just the wrapper within it. I am assuming there is a margin that is not being painted so I will need to investigate further.
 

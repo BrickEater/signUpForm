@@ -109,6 +109,14 @@ html, body {
 input {
 	width: 200px;
 	height: 25px;
+	border-radius: 3px;
+	border-color:#b1b5bb;
+	border: 1px solid #ccc;
+}
+
+input:focus {
+	outline: none;
+	border-color: rgb(95, 145, 244);
 }
 
 .header, .inputWrapper0, .inputWrapper2, .inputWrapper4 {
@@ -147,4 +155,39 @@ input {
 
 .labelField {
 	font-size: 10px;
+}
+
+button {
+	width: 180px;
+	height: 35px;
+	background-color: rgb(91, 125, 91);
+	border-radius: 5px;
+	font-family: sans-serif;
+	color: white;
+	font-weight: 600;
+	box-shadow: 1px 1px 1px rgb(217, 210, 210);
+	border: none;
+}
+
+.buttonWrapper {
+	display: grid;
+	row-gap: 10px;
+	margin: 28px;
+}
+
+.buttonWrapper span, .buttonWrapper a {
+	display: inline-block;
+	grid-row: 2;
+	font-size: 13px;
+}
+
+.buttonWrapper a {
+	color: rgb(91, 125, 91);
+	font-weight: 700;
+	text-decoration: none;
+}
+
+button:active {
+	position: relative;
+	top: 2px;
 }
