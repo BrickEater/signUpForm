@@ -1,5 +1,10 @@
 # signUpForm
 
+02/03/2023:
+Add the external font type and logo. Then you're done... probably.
+---
+I put the box into the website but need to have it layer itself on top. This doesn't seem hard but I don't want to spend any more time on this right now.
+
 01/03/2023:
 I don't want to fuck around with small things so I'm just going to change the button style to match with a forest green color and a shadow. Not much time today so that's probably it.
 

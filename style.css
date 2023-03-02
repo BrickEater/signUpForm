@@ -49,6 +49,13 @@ table {
 
 /* ^^^^ remove browser default styles ^^^^ */
 
+@font-face {
+	font-family: 'Norse-Bold';
+	src: url(/home/cody/repos/odin-project/signUpForm/fonts/Norse-Bold.otf);
+	font-weight: normal;
+	font-style: normal;
+}
+
 html, body {
 	display: flex;
 	justify-content: center;
@@ -81,10 +88,21 @@ html, body {
 	overflow: hidden;
 }
 
-.sidebar img {
+.sidebarWrapper {
+	width: 100%;
+	height: 100%;
+}
+
+.sidebarImage {
 	width: auto;
 	height: 100%;
 	object-fit: cover;
+}
+
+.logoBanner {
+	width: auto;
+	height: 200px;
+	background-color: #00000036;
 }
 
 .fields {
