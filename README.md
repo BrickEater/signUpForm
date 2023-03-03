@@ -1,5 +1,10 @@
 # signUpForm
 
+03/03/2023:
+Tried layering a div on top of the sidebar image but it kept messing up the shape of the image. I am realizing more and more that you need to put things in a wrapper. I don't quite know the full extent of why but it does seem to correct a lot of issues.
+---
+Next time I work on this I should redo the whole side bar from scratch since I think my patchwork is not getting me anywhere.
+
 02/03/2023:
 Add the external font type and logo. Then you're done... probably.
 ---

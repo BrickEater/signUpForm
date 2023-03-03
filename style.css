@@ -88,15 +88,13 @@ html, body {
 	overflow: hidden;
 }
 
-.sidebarWrapper {
-	width: 100%;
+.imageWrapper {
 	height: 100%;
 }
 
 .sidebarImage {
 	width: auto;
-	height: 100%;
-	object-fit: cover;
+	max-height: 100%;
 }
 
 .logoBanner {
