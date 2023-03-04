@@ -51,7 +51,7 @@ table {
 
 @font-face {
 	font-family: 'Norse-Bold';
-	src: url(/home/cody/repos/odin-project/signUpForm/fonts/Norse-Bold.otf);
+	src: url(./fonts/Norse-Bold.otf) format('opentype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -68,7 +68,7 @@ html, body {
 	display: grid;
 	grid-template-columns: minmax(0, 1fr) 2fr;
 	grid-template-rows: auto;
-	height: 60%;
+	height: 750px;
 	width: 80%;
 	max-width: 1200px;
 	min-width: 960px;
@@ -83,24 +83,31 @@ html, body {
 }
 
 .sidebar {
-	width: 100%;
-	height: 100%;
+	position: relative;
 	overflow: hidden;
 }
 
 .imageWrapper {
-	height: 100%;
+	height: 750px;
 }
 
 .sidebarImage {
-	width: auto;
-	max-height: 100%;
+	height: 100%;
 }
 
 .logoBanner {
-	width: auto;
-	height: 200px;
-	background-color: #00000036;
+	width: 100%;
+	height: 100px;
+	background-color: #0000007a;
+	position: absolute;
+	top: 200px;
+	left: 0;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	line-height: 100px;
+	font-family: 'Norse-Bold', san-serif;
+
 }
 
 .fields {
@@ -120,6 +127,7 @@ html, body {
 	justify-content: center;
     box-shadow: 0 8px 8px -5px #b1b5bb;
 	margin-bottom: 8px;
+	background-color: white;
 }
 
 input {

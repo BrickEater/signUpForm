@@ -1,5 +1,8 @@
 # signUpForm
 
+04/03/2023:
+Extreme fuck around to get the sidebar image to fit and stretch to match the size. It turned out I needed a height for my container and then an immediate height for the image wrapper (the parent to the image) for it to actually use "height:100%".
+
 03/03/2023:
 Tried layering a div on top of the sidebar image but it kept messing up the shape of the image. I am realizing more and more that you need to put things in a wrapper. I don't quite know the full extent of why but it does seem to correct a lot of issues.
 ---
