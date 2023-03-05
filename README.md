@@ -1,5 +1,8 @@
 # signUpForm
 
+05/03/2023:
+Finished. This was fun and I'm really happy with how everything looks.
+
 04/03/2023:
 Extreme fuck around to get the sidebar image to fit and stretch to match the size. It turned out I needed a height for my container and then an immediate height for the image wrapper (the parent to the image) for it to actually use "height:100%".
 

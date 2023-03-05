@@ -79,7 +79,7 @@ html, body {
 	display:grid;
 	grid-template-rows: 1fr 1fr 1fr;
 	grid-column: 2 / 3;
-	min-width: 800px;
+	min-width: 700px;
 }
 
 .sidebar {
@@ -102,12 +102,21 @@ html, body {
 	position: absolute;
 	top: 200px;
 	left: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.logoName {
 	color: white;
 	font-size: 50px;
 	text-align: center;
 	line-height: 100px;
 	font-family: 'Norse-Bold', san-serif;
 
+}
+
+.logo {
+	height: 100%;
 }
 
 .fields {
@@ -118,6 +127,7 @@ html, body {
 	border: none;
 	column-gap: 60px;
 	row-gap: 10px;
+	margin-left: 30px
 }
 
 .fieldsWrapper {
